@@ -20,13 +20,14 @@
 	   <a href="/usuario/list" class="btn btn-primary">Usuários</a>
 	   <a href="/home/sobre" class="btn btn-primary">Sobre nós</a>
 	 </div>
+	 <menu>
+	       @section('menu')
+	           This is the menu.
+	               @show
+	   </menu>
 	</header>
 
-<menu>
-      @section('sidebar')
-          This is the master sidebar.
-              @show
-  </menu>
+
 
           <div class="container">
               @yield('content')
