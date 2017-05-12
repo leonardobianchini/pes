@@ -92,7 +92,6 @@ CREATE TABLE IF NOT EXISTS `esporte` (
 INSERT INTO `esporte` (`id`, `nome`) VALUES
 (1, 'Futebol'),
 (2, 'Futsal'),
-(3, 'Polo aquatico'),
 (4, 'Tenis'),
 (5, 'Basquete'),
 (6, 'Volei');

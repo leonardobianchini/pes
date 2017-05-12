@@ -32,7 +32,6 @@ insert into local values
 insert into esporte values
 ('Futebol'),
 ('Futsal'),
-('Polo aquatico'),
 ('Tenis'),
 ('Basquete'),
 ('Volei');
