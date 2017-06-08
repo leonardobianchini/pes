@@ -17,7 +17,7 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Práticas Esportivas</a></h1>
+  <h1><a href="index.php">Práticas Esportivas</a></h1>
 </div>
 <!--close-Header-part-->
 
@@ -42,8 +42,26 @@ switch ($pg) {
   case 'lol':
     echo lol;
     break;
-  case 'pqp':
-    echo pqp;
+  case 'equipe':
+    include 'Equipes.php';
+    break;
+  case 'ptor':
+    include 'Proximos_Torneios.php';
+    break;
+  case 'esporte':
+    include 'Esportes.php';
+    break;
+  case 'grupo':
+    include 'grupo.php';
+    break;
+  case 'ambiente':
+    include 'Ambiente.php';
+    break;
+  case 'torneio':
+    include 'Torneio.php';
+    break;
+  case 'freq':
+    include 'Frequencia_Atividades.php';
     break;
   case '':
   case inicio:
