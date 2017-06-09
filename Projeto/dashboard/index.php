@@ -67,10 +67,10 @@ switch ($pg) {
     include 'formularioevento.php';
     break;
   case inicio:
+    default:
     include 'Inicio.php';
     break;
 
-    default:
     $err=404;
     include 'error.php';
 }
