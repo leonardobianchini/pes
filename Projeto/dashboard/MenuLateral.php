@@ -11,7 +11,7 @@
         <li><a href="index.php?pg=grupo">Grupo</a></li>
         <li><a href="index.php?pg=ambiente">Ambiente</a></li>
         <li><a href="index.php?pg=torneio">Torneio</a></li>
-        <li><a href="evento.php">Evento</a></li>
+        <li><a href="index.php?pg=evento">Evento</a></li>
       </ul>
     </li>
     </li>

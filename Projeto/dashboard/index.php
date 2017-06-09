@@ -63,7 +63,9 @@ switch ($pg) {
   case 'freq':
     include 'Frequencia_Atividades.php';
     break;
-  case '':
+  case 'evento':
+    include 'formularioevento.php';
+    break;
   case inicio:
     include 'Inicio.php';
     break;
