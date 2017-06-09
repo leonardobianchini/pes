@@ -55,7 +55,7 @@ switch ($pg) {
     include 'grupo.php';
     break;
   case 'ambiente':
-    include 'Ambiente.php';
+    include 'formularioambiente.php';
     break;
   case 'torneio':
     include 'Torneio.php';
