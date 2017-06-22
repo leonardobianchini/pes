@@ -46,7 +46,7 @@ switch ($pg) {
     include 'Equipes.php';
     break;
   case 'ptor':
-    include 'Proximos_Torneios.php';
+    include 'Proximos_Eventos.php';
     break;
   case 'esporte':
     include 'Esportes.php';
