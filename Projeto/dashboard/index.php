@@ -13,6 +13,8 @@
 <link rel="stylesheet" href="css/jquery.gritter.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 </head>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <body>
 
 <!--Header-part-->
